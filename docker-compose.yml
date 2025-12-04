@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  fastjson-app:
+    build: .
+    image: fastjson-mysql-app:latest
+    container_name: fastjson-mysql-app
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+
