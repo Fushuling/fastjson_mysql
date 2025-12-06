@@ -1,6 +1,6 @@
 # Fastjson + MySQL 不出网利用测试环境
 
-这是一个用于测试 Fastjson + MySQL 条件下不出网利用的测试环境。该环境演示了在 Fastjson 1.2.68 开启 autotype 的情况下(对于老版本 Fastjson 不开启 autotype 的情况也能利用类似的手法)，通过 MySQL JDBC 的 NamedPipe 机制实现不出网 RCE 的利用方式。
+这是一个用于测试 Fastjson + MySQL 条件下不出网利用的测试环境。该环境演示了在 Fastjson 1.2.83 开启 autotype 的情况下(对于老版本 Fastjson 不开启 autotype 的情况也能利用类似的手法)，通过 MySQL JDBC 的 NamedPipe 机制实现不出网 RCE 的利用方式。
 
 ## 相关文章
 
